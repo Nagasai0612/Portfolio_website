@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a1f4855a.chunk.css",
+    "main.js": "/static/js/main.c73daeff.chunk.js",
+    "main.js.map": "/static/js/main.c73daeff.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c9b1da0f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c9b1da0f.js.map",
+    "static/css/2.95d02a1e.chunk.css": "/static/css/2.95d02a1e.chunk.css",
+    "static/js/2.d5c2c5be.chunk.js": "/static/js/2.d5c2c5be.chunk.js",
+    "static/js/2.d5c2c5be.chunk.js.map": "/static/js/2.d5c2c5be.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.95d02a1e.chunk.css.map": "/static/css/2.95d02a1e.chunk.css.map",
+    "static/css/main.a1f4855a.chunk.css.map": "/static/css/main.a1f4855a.chunk.css.map",
+    "static/js/2.d5c2c5be.chunk.js.LICENSE.txt": "/static/js/2.d5c2c5be.chunk.js.LICENSE.txt",
+    "static/media/1.00d31fa9.jpg": "/static/media/1.00d31fa9.jpg",
+    "static/media/Socialmedia.d7a5e457.png": "/static/media/Socialmedia.d7a5e457.png",
+    "static/media/e-commerce.1f16c2b4.png": "/static/media/e-commerce.1f16c2b4.png",
+    "static/media/react.acec2792.png": "/static/media/react.acec2792.png",
+    "static/media/recipe.9a1d2331.png": "/static/media/recipe.9a1d2331.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9b1da0f.js",
+    "static/css/2.95d02a1e.chunk.css",
+    "static/js/2.d5c2c5be.chunk.js",
+    "static/css/main.a1f4855a.chunk.css",
+    "static/js/main.c73daeff.chunk.js"
+  ]
+}
