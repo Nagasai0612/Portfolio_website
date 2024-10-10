@@ -140,7 +140,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://csb-ks3rf.netlify.app/"
+                  href="#"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -149,7 +149,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/Pooran8898/Sudokosolver"
+                  href="https://github.com/Nagasai0612/Socialmedia-Frontend"
                   target="_blank"
                   rel="noreferrer"
                 >

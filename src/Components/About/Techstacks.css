@@ -1,12 +1,17 @@
 .main {
   margin-top: 4em;
 }
+
 .techsection {
   width: 100%;
   text-align: center;
   background-color: var(--clr-bg);
   height: 60vh;
   max-height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .techsection > div {
@@ -17,41 +22,69 @@
   z-index: 1;
   border-radius: 20px;
   margin: 2.5%;
-  float: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: all 0.5s ease 0s;
+  transition: all 0.5s ease;
 }
+
 .techsection > div:hover {
   background-color: var(--clr-bg);
   overflow: hidden;
   transform: scale(1.08);
-  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   border: 1px solid var(--clr-primary);
 }
 
 .techsection > div > svg {
-  /* height: 50%;
-  width: 50%; */
   font-size: 8vh;
   color: var(--clr-primary);
 }
+
 .techsection > div > h5 {
-  position: relative;
-  top: 8px;
+  margin-top: 8px; /* Adjust to position h5 below SVG */
 }
 
-@media (max-width: 600px) {
+/* Existing general styles remain the same */
+
+/* Media Query for 480px screens */
+@media (max-width: 480px) {
   .techsection {
-    height: 120vh;
+    height: auto; /* Let the section height adjust dynamically */
+    padding-bottom: 2em; /* Add some padding to avoid overlap */
   }
+
   .techsection > div {
-    width: 40%;
-    margin-right: 5%;
-    margin-bottom: 2%;
-    height: 18vh;
+    width: 45%; /* Reduce the width of the divs to fit smaller screens */
+    margin: 2% auto; /* Adjust margins for better alignment */
+    height: auto; /* Let the height adjust automatically */
+    max-height: none; /* Remove the max-height restriction */
+  }
+
+  .techsection > div > svg {
+    font-size: 6vh; /* Reduce SVG size for better fit */
+  }
+  .techsection > div > h5 {
+    margin-top: 2px; /* Adjust the spacing between text and icon */
+    font-size: 0.8em; /* Ensure font size is readable on smaller screens */
+  }
+
+  
+  .main {
+    padding-top: 2em; 
+  }
+  
+
+  .techsection {
+    position: relative;
+    z-index: 1;
+  }
+
+  .other-section {
+    margin-top: 2em; 
+    z-index: 0;
   }
 }
+
